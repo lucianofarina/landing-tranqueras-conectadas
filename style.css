@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(180deg, #591544 0%, rgba(189, 20, 71, 0.75) 47.4%, #EC682F 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+}
+
+.icon {
+    background-image: url( '/icon/Frame-1.svg' );
+
+}
+
