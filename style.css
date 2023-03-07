@@ -7,7 +7,26 @@ body {
 }
 
 .icon {
-    background-image: url( '/icon/Frame-1.svg' );
+    background-image: url( 'ico/Frame-1.svg' );
+    background-repeat: no-repeat;
+
+}
+
+.icon-productores {
+    background-image: url( 'ico/Frame-2.svg' );
+    background-repeat: no-repeat;
+
+}
+
+.icon-defensa-civil {
+    background-image: url( 'ico/Frame-3.svg' );
+    background-repeat: no-repeat;
+
+}
+
+.icon-turismo {
+    background-image: url( 'ico/Frame-1.svg' );
+    background-repeat: no-repeat;
 
 }
 
