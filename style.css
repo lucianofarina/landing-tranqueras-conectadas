@@ -1,32 +1,76 @@
 body {
     background: linear-gradient(180deg, #591544 0%, rgba(189, 20, 71, 0.75) 47.4%, #EC682F 100%);
-    height: 100%;
-    margin: 0;
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
+    color: #FFF;
+    min-height: 750px;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #FFF;
+}
+
+a {
+    color: #FFF !important;
+}
+
+footer {
+    background-color: #2B2B2B;
+    padding: 5% 0;
 }
 
 .icon {
-    background-image: url( 'ico/Frame-1.svg' );
+
+    background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100px;
+    display: block;
 
 }
 
-.icon-productores {
-    background-image: url( 'ico/Frame-2.svg' );
-    background-repeat: no-repeat;
-
-}
-
-.icon-defensa-civil {
-    background-image: url( 'ico/Frame-3.svg' );
-    background-repeat: no-repeat;
+.icon-00 {
+    background-image: url( 'icon/capa-1.svg' );
 
 }
 
 .icon-turismo {
-    background-image: url( 'ico/Frame-1.svg' );
-    background-repeat: no-repeat;
-
+    background-image: url( 'icon/frame-1.svg' );
 }
 
+.icon-productores {
+    background-image: url( 'icon/frame-2.svg' );
+}
+
+.icon-defensa-civil {
+    background-image: url( 'icon/frame-3.svg' );
+}
+
+.icon-01 {
+    background-image: url( 'icon/fi-rr-globe.svg' );
+}
+
+.icon-02 {
+    background-image: url( 'icon/fi-rs-edit.svg' );
+}
+
+.icon-03 {
+    background-image: url( 'icon/fi-rs-map-marker.svg' );
+}
+
+.icon-04 {
+    background-image: url( 'icon/fi-rs-school-bus.svg' );
+}
+
+.icon-05 {
+    background-image: url( 'icon/frame.svg' );
+}
+
+.icon-06 {
+    background-image: url( 'icon/icon-envelope-line-recto.svg' );
+}
+
+.icon-07 {
+    background-image: url( 'icon/icon-phone-call-line.svg' );
+}
