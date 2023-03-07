@@ -1,3 +1,5 @@
+/* TAG */
+
 body {
     background: linear-gradient(180deg, #591544 0%, rgba(189, 20, 71, 0.75) 47.4%, #EC682F 100%);
     background-repeat: no-repeat;
@@ -19,6 +21,52 @@ footer {
     background-color: #2B2B2B;
     padding: 5% 0;
 }
+
+
+
+
+
+
+
+
+/* ID */
+
+#beneficios .card {
+    background-color: #591544;
+    border-radius: 10px;
+    padding: 12px 15px;
+    text-align: center;
+
+}
+    #beneficios .card .card-body {
+        border: 2px solid #BD1447;
+        border-radius: 10px;
+        padding: 50px 0;
+    }
+         #beneficios .card .card-body .card-title {
+            margin: 40px 0;
+        }
+
+#caracteristicas .card {
+    background-color: transparent;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding: 50px 0;
+    text-align: center;
+
+}
+    #caracteristicas .card .card-body {
+
+    }
+        #caracteristicas .card .card-body .card-title {
+            margin: 40px 0 0;
+        }
+        
+
+
+
+/* CLASS */
 
 .icon {
 
