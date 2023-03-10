@@ -62,6 +62,11 @@ h1,h2,h3,h4,h5,h6 {
         font-size: 39px;
     }
 
+hr {
+    padding: 0;
+    margin: 0;
+}
+
 a {
     color: #FFF !important;
 }
@@ -80,6 +85,16 @@ p {
     }
 
 /* ID */
+
+#portada h1 {
+    text-align: center;
+    font-size: 35px;
+}
+    #portada h1 span {
+        background: #EC682F;
+        padding: 5px 15px 0;
+        line-height: 65px;
+    }
 
 #beneficios .card {
     background-color: #591544;
@@ -121,9 +136,12 @@ p {
 /* CLASS */
 
 .navbar {
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(89, 21, 68,1));
+    /*
     border-bottom: 2px solid transparent;
     border-image-source: linear-gradient(180deg, #8B365F 0%, #661D4A 100%) !important;
     border-image-slice: 1;
+    */
 }
     .navbar-toggler {
         border: 0;
@@ -139,7 +157,8 @@ p {
 .form-control {
     background: rgba(217, 217, 217, 0.2);
     border: 1px solid #FFFFFF;
-    border-radius: 10px;  
+    border-radius: 10px; 
+    font-family: 'Quicksand';
     min-height: 60px;
     margin-bottom: 20px;
 }
@@ -156,24 +175,21 @@ p {
     line-height: 21px;
 }
 
-hr {
-    padding: 0;
+hr.hr-01 {
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #8B365F 0%, #661D4A 100%);
+    border: 1px solid;
 }
-    hr.hr-01 {
-        border: 1px solid;
-        border-image-source: linear-gradient(180deg, #8B365F 0%, #661D4A 100%);
-        border: 1px solid;
-    }
 
-    hr.hr-02 {
-        border: 1px solid;
-        border-image-source: linear-gradient(180deg, #C26786 0%, #A3496E 100%);
-    }
+hr.hr-02 {
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #C26786 0%, #A3496E 100%);
+}
 
-    hr.hr-03 {
-        border: 1px solid;
-        border-image-source: linear-gradient(180deg, #DC665C 0%, #D37388 100%);
-    }
+hr.hr-03 {
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #DC665C 0%, #D37388 100%);
+}
 
 .icon {
 
