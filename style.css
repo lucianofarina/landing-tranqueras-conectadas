@@ -95,22 +95,25 @@ p {
         padding: 5px 15px 0;
         line-height: 65px;
     }
-
-#beneficios .card {
-    background-color: #591544;
-    border-radius: 10px;
-    padding: 12px 15px;
-    text-align: center;
+#beneficios {
+    background-color: transparent;
 
 }
-    #beneficios .card .card-body {
-        border: 2px solid #BD1447;
+    #beneficios .card {
+        background-color: #591544;
         border-radius: 10px;
-        padding: 80px 20px;
+        padding: 12px 15px;
+        text-align: center;
+
     }
-         #beneficios .card .card-body .card-title {
-            margin: 40px 0;
+        #beneficios .card .card-body {
+            border: 2px solid #BD1447;
+            border-radius: 10px;
+            padding: 80px 20px;
         }
+            #beneficios .card .card-body .card-title {
+                margin: 40px 0;
+            }
 
 #caracteristicas .card {
     background-color: transparent;
@@ -124,14 +127,12 @@ p {
     margin: 0 auto;
 }
     #caracteristicas .card .card-body {
-
+        padding: 50px 40px;
     }
         #caracteristicas .card .card-body .card-title {
             font-size: 23px;
             margin: 20px 0 0;
         }
-
-
 
 /* CLASS */
 
