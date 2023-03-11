@@ -99,6 +99,7 @@ p {
         padding: 5px 15px 0;
         line-height: 65px;
     }
+
 #beneficios {
     background-color: transparent;
 
@@ -183,6 +184,7 @@ p {
 hr.hr-01 {
     border: 1px solid;
     border-image-source: linear-gradient(180deg, #8B365F 0%, #661D4A 100%);
+    margin: 0;
 }
 
 hr.hr-02 {
