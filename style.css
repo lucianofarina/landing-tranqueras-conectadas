@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6 {
 }
     h2 {
         font-size: 39px;
-        padding-bottom: 60px;
+        
     }
     h6 {
         font-size: 39px;
@@ -68,8 +68,28 @@ h1,h2,h3,h4,h5,h6 {
 
 hr {
     padding: 0;
-    margin: 30px 0;
+    margin: 30px 0;  
 }
+    hr.hr-01 {
+        border: 1px solid;
+        border-image-source: linear-gradient(180deg, #8B365F 0%, #661D4A 100%);
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    hr.hr-02 {
+        border: 1px solid;
+        border-image-source: linear-gradient(180deg, #C26786 0%, #A3496E 100%);
+    }
+
+    hr.hr-03 {
+        border: 1px solid;
+        border-image-source: linear-gradient(180deg, #DC665C 0%, #D37388 100%);
+    }
+
+    hr.hr-04 {
+        background-color: transparent;
+    }
 
 a {
     color: #FFF !important;
@@ -89,15 +109,22 @@ p {
     }
 
 /* ID */
+#portada {
+    background-color: transparent;
 
-#portada h1 {
-    text-align: center;
-    font-size: 35px;
 }
-    #portada h1 span {
-        background: #EC682F;
-        padding: 5px 15px 0;
-        line-height: 65px;
+    #portada h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+        #portada h1 span {
+            background: #EC682F;
+            padding: 5px 15px 0;
+            line-height: 65px;
+        }
+    #portada h2 {
+        font-size: 35px;
+        margin-top: 80px;
     }
 
 #beneficios {
@@ -107,6 +134,7 @@ p {
     #beneficios .card {
         background-color: #591544;
         border-radius: 10px;
+        margin-bottom: 30px;
         padding: 12px 15px;
         text-align: center;
 
@@ -120,24 +148,30 @@ p {
                 margin: 40px 0;
             }
 
-#caracteristicas .card {
+#caracteristicas {
     background-color: transparent;
-    border: 3px solid #FFFFFF;
-    border-radius: 10px;
-    margin: 0 auto;
-    margin-bottom: 50px !important;
-    padding: 0;
-    text-align: center;
-    width: 75%;
-    margin: 0 auto;
 }
-    #caracteristicas .card .card-body {
-        padding: 50px 40px;
+    #caracteristicas h2 {
+        margin-bottom: 100px;
     }
-        #caracteristicas .card .card-body .card-title {
-            font-size: 23px;
-            margin: 20px 0 0;
+    #caracteristicas .card {
+        background-color: transparent;
+        border: 3px solid #FFFFFF;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-bottom: 50px !important;
+        padding: 0;
+        text-align: center;
+        width: 75%;
+        margin: 0 auto;
+    }
+        #caracteristicas .card .card-body {
+            padding: 50px 40px;
         }
+            #caracteristicas .card .card-body .card-title {
+                font-size: 23px;
+                margin: 20px 0 0;
+            }
 
 /* CLASS */
 
@@ -180,22 +214,9 @@ p {
     font-size: 20px;
     line-height: 21px;
 }
-
-hr.hr-01 {
-    border: 1px solid;
-    border-image-source: linear-gradient(180deg, #8B365F 0%, #661D4A 100%);
-    margin: 0;
-}
-
-hr.hr-02 {
-    border: 1px solid;
-    border-image-source: linear-gradient(180deg, #C26786 0%, #A3496E 100%);
-}
-
-hr.hr-03 {
-    border: 1px solid;
-    border-image-source: linear-gradient(180deg, #DC665C 0%, #D37388 100%);
-}
+    .btn-01:hover {
+        color: #FFF;
+    }
 
 .icon {
 
