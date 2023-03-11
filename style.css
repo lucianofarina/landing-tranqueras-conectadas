@@ -68,7 +68,7 @@ h1,h2,h3,h4,h5,h6 {
 
 hr {
     padding: 0;
-    margin: 0;
+    margin: 30px 0;
 }
 
 a {
@@ -183,7 +183,6 @@ p {
 hr.hr-01 {
     border: 1px solid;
     border-image-source: linear-gradient(180deg, #8B365F 0%, #661D4A 100%);
-    border: 1px solid;
 }
 
 hr.hr-02 {
