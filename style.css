@@ -59,22 +59,26 @@ h1,h2,h3,h4,h5,h6 {
     color: #FFF;
 }
     h2 {
-        font-size: 39px;
-        
+        font-size: 40px;
     }
-    h6 {
-        font-size: 39px;
+    h3 {
+        font-size: 32px;
+    }
+    h4 {
+        font-size: 25px;
     }
 
 hr {
     padding: 0;
-    margin: 30px 0;  
+    margin: 100px 0;  
 }
+    hr.hr-00 {
+        background-color: transparent;
+    }
     hr.hr-01 {
         border: 1px solid;
         border-image-source: linear-gradient(180deg, #8B365F 0%, #661D4A 100%);
-        margin: 0;
-        margin-bottom: 30px;
+        /*margin-top: 0;*/
     }
 
     hr.hr-02 {
@@ -87,18 +91,9 @@ hr {
         border-image-source: linear-gradient(180deg, #DC665C 0%, #D37388 100%);
     }
 
-    hr.hr-04 {
-        background-color: transparent;
-    }
 
 a {
     color: #FFF !important;
-}
-
-footer {
-    background-color: #2B2B2B;
-    font-size: 16px;
-    padding: 5% 0;
 }
 
 p {
@@ -115,7 +110,7 @@ p {
 }
     #portada h1 {
         text-align: center;
-        font-size: 35px;
+        font-size: 48px;
     }
         #portada h1 span {
             background: #EC682F;
@@ -123,14 +118,29 @@ p {
             line-height: 65px;
         }
     #portada h2 {
-        font-size: 35px;
         margin-top: 80px;
     }
+    #portada p {
+        font-size: 32px;
+    }
+
+
+#funcionamiento {
+    background-color: transparent;
+
+}
+    #funcionamiento p {
+        font-size: 24px;
+    }
+
 
 #beneficios {
     background-color: transparent;
 
 }
+    #beneficios h2 {
+        margin-bottom: 100px;
+    }
     #beneficios .card {
         background-color: #591544;
         border-radius: 10px;
@@ -169,9 +179,37 @@ p {
             padding: 50px 40px;
         }
             #caracteristicas .card .card-body .card-title {
-                font-size: 23px;
                 margin: 20px 0 0;
             }
+#contacto {
+    background-color: transparent;
+}
+    #contacto h2 {
+        padding-bottom: 100px;
+    }
+    #contacto p {
+        font-size: 25px;
+    }
+
+#footer {
+    background-color: #2B2B2B;
+    font-size: 16px;
+    padding: 5% 0;
+}
+    #footer img {
+        margin-bottom: 46px;
+    }
+    #footer p {
+        font-size: 16px;
+    }
+    #footer .icon {
+        width: 30px;
+        height: 26px;
+        display: inline-block;
+        float: left;
+        min-height: auto;
+        margin-right: 14px;
+    }
 
 /* CLASS */
 
@@ -266,9 +304,13 @@ p {
     }
 
     .icon-06 {
-        background-image: url( 'icon/icon-envelope-line-recto.svg' );
+        background-image: url( 'icon/icon-phone-call-line.svg' );
     }
 
     .icon-07 {
-        background-image: url( 'icon/icon-phone-call-line.svg' );
+        background-image: url( 'icon/icon-envelope-line-recto.svg' );
+    }
+
+    .icon-08 {
+        background-image: url( 'icon/vector.svg' );
     }
