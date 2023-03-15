@@ -12,7 +12,7 @@
 		<!--NAVBAR-->
 		<nav class="navbar navbar-expand-xxl navbar-light fixed-top">
 			<div class="container">
-				<a class="navbar-brand " href="index.html">
+				<a class="navbar-brand m-auto" href="index.html">
 			  		<img src="img/logo.png" alt="Munigis">
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,13 +24,13 @@
 							<a class="nav-link" href="#municipios">Testimonios</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" aria-current="page" href="#funcionamiento">Cómo funciona</a>
+							<a class="nav-link" aria-current="page" href="#funcionamiento">C&oacute;mo funciona</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#beneficios">Beneficios</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#caracteristicas">Caracteristicas</a>
+							<a class="nav-link" href="#caracteristicas">Caracter&iacute;sticas</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#contacto">Contacto</a>
@@ -45,13 +45,14 @@
 		<!--PORTADA-->
 		<div class="container" id="portada">
 			<div class="row min-vh-100">
-				<div class="col-lg-5 align-self-center">
+				<div class="col-xl-6 col-xxl-5 align-self-center">
 					<h1><span>Routing de escala</span><br /><span>Municipal</span></h1>
+					<img src="img/ilustracion-1.png" class="img-fluid d-xl-none" alt="#" />
 					<h2>Tranqueras conectadas</h2>
 					<p>Bienvenido al software de ruteo hecho a medida para los vecinos de cada distrito.</p>
 				</div>
-				<div class="col-lg-7 align-self-end">
-					<img src="img/ilustracion-1.png" class="img-fluid" alt="#" />
+				<div class="col-xl-6 col-xxl-7 align-self-end">
+					<img src="img/ilustracion-1.png" class="img-fluid d-none d-xl-block" alt="#" />
 				</div>
 			</div>
 		</div>
@@ -98,13 +99,13 @@
 						</div>
 						<!--PRODUCTORES-->
 						<div class="col-lg-4">
-											<div class="card">
-												<div class="card-body">
-													<i class="icon icon-productores"></i>
-													<h3 class="card-title">Productores</h3>
-													<p class="card-text">Ayuda a los productores locales a identificar el acceso de tranqueras, compartir la ubicación y la ruta de acceso para retirar la producción o le llegada de suministros.</p>
-												</div>
-											</div>
+							<div class="card">
+								<div class="card-body">
+									<i class="icon icon-productores"></i>
+									<h3 class="card-title">Productores</h3>
+									<p class="card-text">Ayuda a los productores locales a identificar el acceso de tranqueras, compartir la ubicación y la ruta de acceso para retirar la producción o le llegada de suministros.</p>
+								</div>
+							</div>
 						</div>
 						<!--DEFENSA CIVIL-->
 						<div class="col-lg-4">
@@ -140,60 +141,65 @@
 							<h2>Caracteristicas</h2>
 						</div>
 						<!--RUTEO-->
-						<div class="col-6 col-md-6 col-lg-4">
-							<div class="card">
+						<div class="col-6 col-md-6 col-lg-4 mb-5">
+							<a class="card">
 								<div class="card-body">
 									<i class="icon icon-03"></i>
-									<h4 class="card-title">Ruteo<br /><br /></h4>					
+									<h4 class="card-title">Ruteo<br /><br /></h4>
+									<cite>Marca el mejor camino para llegar a su destino.</cite>
 								</div>
-							</div>
+							</a>
 						</div>
 						<!--UBICACION DE ACCESOS-->
-						<div class="col-6 col-md-6 col-lg-4">
+						<div class="col-6 col-md-6 col-lg-4 mb-5">
 							<div class="card">
 								<div class="card-body">
 									<i class="icon icon-00"></i>
-									<h4 class="card-title">Ubicación<br />de accesos</h4>						
+									<h4 class="card-title">Ubicación<br />de accesos</h4>
+									<cite>Permite marcar la tranquera, tranqueron, cruce y cargador exacto al dar indicaciones.</cite>
 								</div>
 							</div>
 						</div>
 						<!--IDENTIFICACION DE CAMPOS-->
-						<div class="col-6 col-md-6 col-lg-4">
+						<div class="col-6 col-md-6 col-lg-4 mb-5">
 							<div class="card">
 								<div class="card-body">
 									<i class="icon icon-05"></i>
-									<h4 class="card-title">Identificación<br />de campos</h4>						
+									<h4 class="card-title">Identificación<br />de campos</h4>		
+									<cite>Cada campo identificado con su nombre o número.</cite>				
 								</div>
 							</div>
 						</div>
 						<!--PERFILES DE VEHICULOS-->
-						<div class="col-6 col-md-6 col-lg-4">
+						<div class="col-6 col-md-6 col-lg-4 mb-5">
 							<div class="card">
 								<div class="card-body">
 									<i class="icon icon-04"></i>
-									<h4 class="card-title">Perfiles de<br />vehículos</h4>						
+									<h4 class="card-title">Perfiles de<br />vehículos</h4>			
+									<cite>Advierte que tipo de vehículo puede transitar por cada camino.</cite>			
 								</div>
 							</div>
 						</div>
 						<!--MAPA EDITABLE-->
-						<div class="col-6 col-md-6 col-lg-4">
+						<div class="col-6 col-md-6 col-lg-4 mb-5">
 							<div class="card">
 								<div class="card-body">
 									<i class="icon icon-02"></i>
-									<h4 class="card-title">Mapa<br />editable</h4>						
+									<h4 class="card-title">Mapa<br />editable</h4>			
+									<cite>Permite a los vecinos editar el nombre del campo y el numero de tranquera.</cite>			
 								</div>
 							</div>
 						</div>
 						<!--SIN DESCARGA-->
-						<div class="col-6 col-md-6 col-lg-4">
+						<div class="col-6 col-md-6 col-lg-4 mb-5">
 							<div class="card">
 								<div class="card-body">
 									<i class="icon icon-01"></i>
-									<h4 class="card-title">Sin descarga<br /><br /></h4>						
+									<h4 class="card-title">Sin descarga<br /><br /></h4>		
+									<cite>Su uso desde la web permite el acceso a toda la información sin descargar la aplicación.</cite>				
 								</div>
 							</div>
 						</div>
-						
 					</div>		
 				</div>
 			</div>

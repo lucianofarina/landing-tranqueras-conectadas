@@ -27,7 +27,6 @@
 body {
     background: linear-gradient(180deg, #591544 0%, rgba(189, 20, 71, 0.75) 47.4%, #EC682F 100%);
     background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
     color: #FFF;
     font-family: 'Codec Cold Light';
     min-height: 750px;
@@ -111,6 +110,7 @@ p {
     #portada h1 {
         text-align: center;
         font-size: 48px;
+        margin-top: 200px;
     }
         #portada h1 span {
             background: #EC682F;
@@ -169,11 +169,16 @@ p {
         border: 3px solid #FFFFFF;
         border-radius: 10px;
         margin: 0 auto;
-        margin-bottom: 50px !important;
-        padding: 0;
         text-align: center;
+        text-decoration: none;
+
+
         width: 75%;
-        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
     }
         #caracteristicas .card .card-body {
             padding: 50px 40px;
@@ -181,6 +186,24 @@ p {
             #caracteristicas .card .card-body .card-title {
                 margin: 20px 0 0;
             }
+            
+            /* HOVER */
+            #caracteristicas .card .card-body cite {
+                font-style: normal;
+                display: none;
+                font-size: 22px;
+                transition: all 0.5s ease;
+
+            }
+            #caracteristicas .card:hover .card-body h4, #caracteristicas .card:hover .card-body .icon {
+                display: none;
+            }
+            #caracteristicas .card:hover .card-body cite {
+                display: block;
+            }
+
+
+            
 #contacto {
     background-color: transparent;
 }
@@ -317,13 +340,6 @@ p {
 /*@MEDIA*/
 
 @media only screen and (max-width: 1200px) {
-
-#portada {
-    background-color: transparent;
-}
-    #portada h1 {
-        margin-top: 200px;
-    }
 
 #caracteristicas {
     background-color: transparent;
