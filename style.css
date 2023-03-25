@@ -238,6 +238,7 @@ p {
 
 .navbar {
     background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(89, 21, 68,1));
+    background-color: rgba(89, 21, 68,1);
     /*
     border-bottom: 2px solid transparent;
     border-image-source: linear-gradient(180deg, #8B365F 0%, #661D4A 100%) !important;
@@ -248,6 +249,9 @@ p {
         border: 0;
         color: #FFF !important;
         font-size: 40px;
+    }
+    .navbar-brand {
+        width: 250px;
     }
 
 .form-label {
